@@ -144,12 +144,19 @@
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand"
       }
+    },
+    "2245f9cc-374d-4c5f-b106-edcf2720d75c": {
+      "type": "newsection",
+      "settings": {
+        "title": "Featured collection"
+      }
     }
   },
   "order": [
     "slideshow",
     "featured-collection-0",
     "4a9228c2-9d84-41da-b501-201facd2cf2f",
-    "1ecdd54b-ef7f-49db-9749-7e492e7a0a24"
+    "1ecdd54b-ef7f-49db-9749-7e492e7a0a24",
+    "2245f9cc-374d-4c5f-b106-edcf2720d75c"
   ]
 }
