@@ -1,4 +1,7 @@
-<h1 class="new">{{section.settings.title}}</h1>
+
+{% for item in section.settings.collection.products %}
+    <h1 class="new">{{item.title}}</h1>
+{% endfor %}
 
 {% schema %}
     {
@@ -9,6 +12,11 @@
             "id": "title",
             "default": "Featured collection edsdkhvbedwlhvflhedwu",
             "label": "wqdsacgvbpewh' this will be a label"
+            },
+            {
+            "type": "collection",
+            "id": "collection",
+            "label": "change collection"
             }
         ],
         "presets": [
